@@ -1,7 +1,16 @@
 {
+  "name": "bot-ismael",
+  "version": "1.0.0",
+  "description": "Chatbot para WhatsApp do CALEA",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "",
+  "license": "ISC",
   "dependencies": {
-    "moment-timezone": "^0.5.45",
+    "express": "^4.19.2",
     "qrcode-terminal": "^0.12.0",
-    "whatsapp-web.js": ""
+    "whatsapp-web.js": "^1.23.0"
   }
 }
